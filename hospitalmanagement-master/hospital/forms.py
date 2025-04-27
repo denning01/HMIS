@@ -29,7 +29,7 @@ class DoctorForm(forms.ModelForm):
 
 
 
-#for teacher related form
+#for patient related form
 class PatientUserForm(forms.ModelForm):
     class Meta:
         model=User
@@ -71,6 +71,3 @@ class ContactusForm(forms.Form):
 
 
 
-#Developed By : sumit kumar
-#facebook : fb.com/sumit.luv
-#Youtube :youtube.com/lazycoders
